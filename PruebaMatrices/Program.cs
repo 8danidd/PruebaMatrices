@@ -40,9 +40,14 @@ public class Matriz
 
                 }
                 pagina = 0;
-                Console.WriteLine("\nElige el modelo a comprar: ");
+                Console.WriteLine("\n0 - Salir\n\nElige el modelo a comprar: ");
                 modelo = Convert.ToInt32(Console.ReadLine());
-                if (modelo < 0 || modelo > 4)
+                if (modelo == 0)
+                {
+                    Console.Clear();
+                    Catalogo();
+                }
+                else if (modelo < 1 || modelo > 5)
                 {
                     Console.Clear();
                     Console.WriteLine("Posicion invalida");
@@ -58,9 +63,14 @@ public class Matriz
                     Console.WriteLine((i + 1) + " - " + modelos[1, i] + "\n");
                 }
                 pagina = 1;
-                Console.WriteLine("\nElige el modelo a comprar: ");
+                Console.WriteLine("\n0 - Salir\n\nElige el modelo a comprar: ");
                 modelo = Convert.ToInt32(Console.ReadLine());
-                if (modelo < 0 || modelo > 4)
+                if (modelo == 0)
+                {
+                    Console.Clear();
+                    Catalogo();
+                }
+                else if (modelo < 1 || modelo > 5)
                 {
                     Console.Clear();
                     Console.WriteLine("Posicion invalida");
@@ -76,9 +86,14 @@ public class Matriz
                     Console.WriteLine((i + 1) + " - " + modelos[2, i] + "\n");
                 }
                 pagina = 2;
-                Console.WriteLine("\nElige el modelo a comprar: ");
+                Console.WriteLine("\n0 - Salir\n\nElige el modelo a comprar: ");
                 modelo = Convert.ToInt32(Console.ReadLine());
-                if (modelo < 0 || modelo > 4)
+                if (modelo == 0)
+                {
+                    Console.Clear();
+                    Catalogo();
+                }
+                else if (modelo < 1 || modelo > 5)
                 {
                     Console.Clear();
                     Console.WriteLine("Posicion invalida");
@@ -94,9 +109,14 @@ public class Matriz
                     Console.WriteLine((i + 1) + " - " + modelos[3, i] + "\n");
                 }
                 pagina = 3;
-                Console.WriteLine("\nElige el modelo a comprar: ");
+                Console.WriteLine("\n0 - Salir\n\nElige el modelo a comprar: ");
                 modelo = Convert.ToInt32(Console.ReadLine());
-                if (modelo < 0 || modelo > 4)
+                if (modelo == 0)
+                {
+                    Console.Clear();
+                    Catalogo();
+                }
+                else if (modelo < 1 || modelo > 5)
                 {
                     Console.Clear();
                     Console.WriteLine("Posicion invalida");
@@ -112,9 +132,14 @@ public class Matriz
                     Console.WriteLine((i + 1) + " - " + modelos[4, i] + "\n");
                 }
                 pagina = 4;
-                Console.WriteLine("\nElige el modelo a comprar: ");
+                Console.WriteLine("\n0 - Salir\n\nElige el modelo a comprar: ");
                 modelo = Convert.ToInt32(Console.ReadLine());
-                if (modelo < 0 || modelo > 4)
+                if (modelo == 0)
+                {
+                    Console.Clear();
+                    Catalogo();
+                }
+                else if (modelo < 1 || modelo > 5)
                 {
                     Console.Clear();
                     Console.WriteLine("Posicion invalida");
